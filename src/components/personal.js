@@ -15,10 +15,11 @@ export function Personal() {
             <Image src={VG_3} rounded className="front-image" />
           </Col>
           <Col>
-            <Table className="">
+            <div className="align-middle">
+            <Table className="" hover>
               <tbody>
                 <tr>
-                  <td colspan="2">Intro..</td>
+                  <td colspan="2">Hi, I am an Associate Software Engineer, working full time in FinTech organization since Jan 2022</td>
                 </tr>
                 <tr>
                   <td>Date of Birth</td>
@@ -34,6 +35,7 @@ export function Personal() {
                 </tr>
               </tbody>
             </Table>
+            </div>
           </Col>
         </Row>
       </Container>
