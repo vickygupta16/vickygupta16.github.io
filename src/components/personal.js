@@ -15,11 +15,22 @@ export function Personal() {
             <Image src={VG_3} rounded className="front-image" />
           </Col>
           <Col>
-            <Table>
+            <Table className="">
               <tbody>
                 <tr>
-                  <td>Email ID</td>
-                  <td className="mail-link"><a href="mailto:vickygupta16599@gmail.com">vickygupta16599@gmail.com</a></td>
+                  <td colspan="2">Intro..</td>
+                </tr>
+                <tr>
+                  <td>Date of Birth</td>
+                  <td>16<sup>th</sup> May 1999</td>
+                </tr>
+                <tr>
+                  <td>Email</td>
+                  <td><a href="mailto:vickygupta16599@gmail.com" className="mail-link">vickygupta16599@gmail.com</a></td>
+                </tr>
+                <tr>
+                  <td>Location</td>
+                  <td>Mumbai, India</td>
                 </tr>
               </tbody>
             </Table>
