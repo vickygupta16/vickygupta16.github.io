@@ -1,3 +1,4 @@
+import Card from 'react-bootstrap/Card';
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -12,30 +13,44 @@ export function Personal() {
       <Container>
         <Row>
           <Col>
-            <Image src={VG_3} rounded className="front-image" />
+            <Image src={VG_3} className="front-image" />
           </Col>
           <Col>
-            <div className="align-middle">
-            <Table className="" hover>
+            <Card className="align-middle">
+            <Card.Body>
+            <Table className="personal-table" hover>
               <tbody>
-                <tr>
-                  <td colspan="2">Hi, I am an Associate Software Engineer, working full time in FinTech organization since Jan 2022</td>
+                <tr className="personal-table-row">
+                  <td colspan="2">Hi, I am an <span className="designation">A</span>ssociate <span className="designation">S</span>oftware <span className="designation">E</span>ngineer, working full time in FinTech organization since Jan 2022</td>
                 </tr>
-                <tr>
-                  <td>Date of Birth</td>
-                  <td>16<sup>th</sup> May 1999</td>
+                <tr className="personal-table-row">
+                  <td className="personal-content-title">Name</td>
+                  <th className="personal-content-values">Vicky Gupta</th>
                 </tr>
-                <tr>
-                  <td>Email</td>
-                  <td><a href="mailto:vickygupta16599@gmail.com" className="mail-link">vickygupta16599@gmail.com</a></td>
+                <tr className="personal-table-row">
+                  <td className="personal-content-title">Email</td>
+                  <th className="personal-content-values"><a href="mailto:vickygupta16599@gmail.com" className="mail-link">vickygupta16599@gmail.com</a></th>
                 </tr>
-                <tr>
-                  <td>Location</td>
-                  <td>Mumbai, India</td>
+                <tr className="personal-table-row">
+                  <td className="personal-content-title">Mobile</td>
+                  <th className="personal-content-values"><a href="tel:+91 8879835947" className="mob">+91 8879835947</a></th>
+                </tr>
+                <tr className="personal-table-row">
+                  <td className="personal-content-title">Date of Birth</td>
+                  <th className="personal-content-values">16<sup>th</sup> May 1999</th>
+                </tr>
+                <tr className="personal-table-row">
+                  <td className="personal-content-title">Location</td>
+                  <th className="personal-content-values">Mumbai, India</th>
+                </tr>
+                <tr className="personal-table-row">
+                  <td className="personal-content-title">Nationality</td>
+                  <th className="personal-content-values">Indian</th>
                 </tr>
               </tbody>
             </Table>
-            </div>
+            </Card.Body>
+            </Card>
           </Col>
         </Row>
       </Container>
