@@ -9,14 +9,15 @@ import "../App.css";
 
 export function Personal() {
   return (
-    <div id="#personal" className="text-center">
+    <div id="personal" className="text-center">
       <Container>
+        <h3 className="section-title">About me</h3>
         <Row>
           <Col>
             <Image src={VG_3} className="front-image" />
           </Col>
           <Col>
-            <Card className="align-middle">
+            <Card className="align-middle shadow-lg">
             <Card.Body>
             <Table className="personal-table" hover>
               <tbody>
@@ -53,6 +54,8 @@ export function Personal() {
             </Card>
           </Col>
         </Row>
+        <br/><br/><br/>
+        <hr/>
       </Container>
     </div>
   );

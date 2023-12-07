@@ -61,11 +61,33 @@
   text-decoration: none;
 }
 
-.personal-table-row{
+.personal-table-row, .almamater-table-row{
   border: 0px solid white;
 }
 
 .designation{
   font-weight: bold;
   color: #00308f;
+}
+
+#personal, #almamater{
+  /* margin-top: 50px !important; */
+  /* margin-bottom: 100px !important; */
+}
+
+.section-title{
+  margin-bottom: 30px;
+}
+
+.almamater-row{
+  /* background-color: red; */
+  /* display: flex !important;
+  justify-content: space-around !important; */
+  /* margin-bottom: 30px !important; */
+}
+
+.qual-card{
+  margin-bottom: 50px !important;
+  margin-left: 30px !important;
+  margin-right: 30px !important;
 }

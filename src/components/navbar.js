@@ -11,6 +11,7 @@ export function NavBar() {
     <Navbar
       collapseOnSelect
       expand="lg"
+      sticky="top"
       className="bg-body-tertiary shadow p-3 mb-5 bg-body navbar"
     >
       <Container fluid>
