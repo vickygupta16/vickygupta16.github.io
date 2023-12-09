@@ -25,16 +25,16 @@ export function NavBar() {
             // style={{ maxHeight: "100px" }}
             navbarScroll
           >
-            <Nav.Link href="#action1" className="navbar-items">
+            <Nav.Link href="#personal" className="navbar-items">
               Personal
             </Nav.Link>
-            <Nav.Link href="#action2" className="navbar-items">
+            <Nav.Link href="#almamater" className="navbar-items">
               Alma mater
             </Nav.Link>
-            <Nav.Link href="#action3" className="navbar-items">
+            <Nav.Link href="#profession" className="navbar-items">
               Profession
             </Nav.Link>
-            <Nav.Link href="#action3" className="navbar-items">
+            <Nav.Link href="#skills" className="navbar-items">
               Skills
             </Nav.Link>
             <Nav.Link href="#action3" className="navbar-items">
