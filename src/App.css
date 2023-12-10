@@ -95,3 +95,12 @@
 .profession-card{
   margin: 20px 0 !important;
 }
+
+.profession-card-body{
+  padding: 30px !important;
+  /* background-color: red; */
+}
+
+.ivp-logo{
+  height: 80%;
+}

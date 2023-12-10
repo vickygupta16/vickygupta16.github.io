@@ -11,8 +11,9 @@ export function Almamater(){
       <Container>
       <br/>
       <h3 className="section-title">Alma mater</h3>
-      <Row className="almamater-row" lg={2} md={1}>
-        <Col><Card className="shadow qual-card">
+      <Row className="almamater-row">
+        <Col xs={12} md={6}>
+        <Card className="shadow qual-card">
           <Card.Body>
             <Card.Title>Master of Computer Applications (2019-22)</Card.Title>
             <Card.Subtitle>K.J. Somaiya Institute of Management</Card.Subtitle>
@@ -23,7 +24,8 @@ export function Almamater(){
             </Row>
           </Card.Body>
         </Card></Col>
-        <Col><Card className="shadow qual-card">
+        <Col  xs={12} md={6}>
+        <Card className="shadow qual-card">
           <Card.Body>
             <Card.Title>Bachelor of Science in Information Technology (2016-19)</Card.Title>
             <Card.Subtitle>Ramniranjan Jhunjhunwala College</Card.Subtitle>
@@ -33,8 +35,10 @@ export function Almamater(){
               <Col><span className="mb-2 text-muted">Grade :</span> <b>A</b></Col>
             </Row>
           </Card.Body>
-        </Card></Col>
-          <Col><Card className="shadow qual-card">
+        </Card>
+        </Col>
+          <Col xs={12} md={6}>
+          <Card className="shadow qual-card">
           <Card.Body>
             <Card.Title>H.S.C. (2016)</Card.Title>
             <Card.Subtitle>MSBSHSE</Card.Subtitle>
@@ -45,8 +49,10 @@ export function Almamater(){
               <Col><span className="mb-2 text-muted">Grade :</span> <b>A</b></Col>
             </Row>
           </Card.Body>
-        </Card></Col>
-      <Col>  <Card className="shadow qual-card">
+        </Card>
+        </Col>
+        <Col xs={12} md={6}>
+        <Card className="shadow qual-card">
           <Card.Body>
             <Card.Title>S.S.C. (2014)</Card.Title>
             <Card.Subtitle>MSBSHSE</Card.Subtitle>

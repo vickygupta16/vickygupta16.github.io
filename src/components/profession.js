@@ -1,3 +1,4 @@
+import ListGroup from 'react-bootstrap/ListGroup';
 import Card from 'react-bootstrap/Card';
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -7,6 +8,7 @@ import VG_3 from "../images/VG_3.png";
 import Table from 'react-bootstrap/Table';
 import "../App.css";
 import moment from "moment";
+import IVPLogo from "../images/IVP_logo2.jpg";
 
 export function Profession(){
   var ivpStartDate = moment("2022-01-11","YYYY-MM-DD");
@@ -21,39 +23,75 @@ export function Profession(){
   const ivpTenureMonths = diffDate.months() > 1 ? diffDate.months() + " months" : diffDate.months() + "month";
   const ivpTenure = ivpTenureYears + ivpTenureMonths;
   return (
-    <div id="profession" className="text-center">
+    <div id="profession">
       <Container>
-        <h3>Profession</h3>
-        <div class="row profession-row">
-          <Row>
-            <Col xs={12} md={6}>
-              <Card className="profession-card">
-                <Card.Body>
+        <h3 className="text-center">Profession</h3>
+          <Card className="profession-card shadow">
+            <Card.Body className="profession-card-body">
+              <Row>
+                <Col>
                   <Card.Title>
                     Associate Software Engineer
                   </Card.Title>
-                  <Card.Subtitle className="mb-2 text-muted">Indus Valley Partners</Card.Subtitle>
+                  <Card.Subtitle className="mb-2 text-muted">Indus Valley Partners &#x2022; Full Time</Card.Subtitle>
                   <Card.Text>
                     Jan 2022 - Present : {ivpTenure}
                   </Card.Text>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col xs={12} md={6}>
-              <Card className="profession-card">
-                <Card.Body>
-                  <Card.Title>
-                    Associate Software Engineer
-                  </Card.Title>
-                  <Card.Subtitle className="mb-2 text-muted">Indus Valley Partners</Card.Subtitle>
-                  <Card.Text>
-                    Jan 2022 - Present : {ivpTenure}
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </Col>
-          </Row>
-        </div>
+                </Col>
+                <Col className="text-end">
+                  <a href="https://www.ivp.in/"><Image src={IVPLogo} className="ivp-logo"/></a>
+                </Col>
+              </Row>
+              <br/>
+              <ListGroup numbered>
+                <ListGroup.Item>
+                  Contributed in several modules by developing, testing and deploying - Tables, Stored Procedures, Views, Azure Data Factory Pipelines, .NET code, React code.
+                  <br/>
+                  <ul>
+                    <li>Created / Modified numerous tables for holding qualitative data and quantitative data.</li>
+                    <li>Modified / Developed and optimized Stored Procedures responsible to be source for Synapse tables via ETL Pipelines.</li>
+                    <li>Developed and created Views in Azure Synapse to be the primary source for Web Application Reporting Tool (Data Portal Blotter).</li>
+                    <li>Modified / Developed / Enhanced ETL Pipelines in <b>Azure Data Factory</b> responsible for loading / massaging data from one data source to other. E.g.
+                        <ul>
+                          <li>Database Table to CSV File</li>
+                          <li>CSV File to ORC File</li>
+                          <li>Database Table to ORC File</li>
+                          <li>ORC File to DataWarehouse Table</li>
+                          <li>XML File to DataWarehouse Table</li>
+                          <li>DataWarehouse Table to Synapse Table</li>
+                          <li>DataWarehouse Stored Procedure to Synapse Table</li>
+                        </ul>
+                    </li>
+                    <li>Developed several Web API's in <b>.NET</b> to get data from DataWarehouse and Azure Synapse.</li>
+                    <li>Using <b>React JS</b>, developed services to consume Web API's and show data on Blotter, added dashboard, updated landing page, fixed styling of various components.</li>
+                  </ul>
+                </ListGroup.Item>
+                <ListGroup.Item>Created / revamped / enhanced blotters in Data Portal. Reformed blotters with multiple dropdowns responsible for API calls and dataset filtering. (Blotter - Web Application Reporting tool)</ListGroup.Item>
+                <ListGroup.Item>For daily Data Quality Management Report, sustained the report format and checks, and documented all up-to-date queries and steps used to manually prepare the Report and share with the client team to inform conclusion of the orchestration process (Orchestration - Scripted Extract Transform Load process)</ListGroup.Item>
+                <ListGroup.Item>Automated the daily Data Quality Management Report using <b>Azure Data Factory Pipelines</b>, <b>SQL Stored Procedures</b>, supporting <b>SQL Tables</b> in DataWarehouse and Synapse, <b>SQL View</b> and <b>SSRS Report</b>.</ListGroup.Item>
+                <ListGroup.Item>Investigated data issue / <b>ETL</b> process failure issue of various modules, proactively communicated issues and possible remedies with team and fixed the same to avoid losing latest data.</ListGroup.Item>
+                <ListGroup.Item>Developed a module end-to-end and stepped into ownership by maintaining data quality and supervising each <b>orchestration</b>. (Orchestration - Scripted Extract Transform Load process)</ListGroup.Item>
+                <ListGroup.Item>Refined and sustained <b>Data Dictionary</b> which helps client team and dev team both to search/identify source columns/tables of several Data Portal Blotters / Synapse Tables / Synapse Views / DataWarehouse Tables.</ListGroup.Item>
+                <ListGroup.Item>Head UAT Restoration Process by coordinating with client IT team.</ListGroup.Item>
+                <ListGroup.Item>Using <b>Microsoft Visio</b>, created Database DataWarehouse Diagram Model depicting types of tables and the relationships among them.</ListGroup.Item>
+                <ListGroup.Item>Modified <b>Azure Logic Apps</b> and Pipelines in <b>Azure Data Factory</b> to send email alerts on pipeline failure having Environment name and Error message.</ListGroup.Item>
+                <ListGroup.Item>Mentored juniors and new resources for onboarding.</ListGroup.Item>
+              </ListGroup>
+              <hr/>
+              <ListGroup horizontal>
+                <ListGroup.Item>Microsoft Visio</ListGroup.Item>
+                <ListGroup.Item>Microsoft Azure Data Factory</ListGroup.Item>
+                <ListGroup.Item>SQL</ListGroup.Item>
+                <ListGroup.Item>React JS</ListGroup.Item>
+                <ListGroup.Item>.NET MVC</ListGroup.Item>
+                <ListGroup.Item>C#</ListGroup.Item>
+                <ListGroup.Item>Material UI</ListGroup.Item>
+                <ListGroup.Item>Figma</ListGroup.Item>
+                <ListGroup.Item>Postman</ListGroup.Item>
+                <ListGroup.Item>Git</ListGroup.Item>
+              </ListGroup>
+            </Card.Body>
+          </Card>
       </Container>
     </div>
   )
