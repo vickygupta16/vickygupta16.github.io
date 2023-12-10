@@ -92,9 +92,6 @@
   margin-right: 30px !important;
 }
 
-.profession-row{
-  /* background-color: red !important; */
-  /* margin: 20px; */
-  display: flex !important;
-  justify-content: space-around !important;
+.profession-card{
+  margin: 20px 0 !important;
 }

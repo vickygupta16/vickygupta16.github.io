@@ -25,28 +25,34 @@ export function Profession(){
       <Container>
         <h3>Profession</h3>
         <div class="row profession-row">
-        <Card className="col-md-12 col-lg-6 profession-card">
-          <Card.Body>
-            <Card.Title>
-              Associate Software Engineer
-            </Card.Title>
-            <Card.Subtitle className="mb-2 text-muted">Indus Valley Partners</Card.Subtitle>
-            <Card.Text>
-              Jan 2022 - Present : {ivpTenure}
-            </Card.Text>
-          </Card.Body>
-        </Card>
-        <Card className="col-md-12 col-lg-6 profession-card">
-          <Card.Body>
-            <Card.Title>
-              Associate Software Engineer
-            </Card.Title>
-            <Card.Subtitle className="mb-2 text-muted">Indus Valley Partners</Card.Subtitle>
-            <Card.Text>
-              Jan 2022 - Present : {ivpTenure}
-            </Card.Text>
-          </Card.Body>
-        </Card>
+          <Row>
+            <Col xs={12} md={6}>
+              <Card className="profession-card">
+                <Card.Body>
+                  <Card.Title>
+                    Associate Software Engineer
+                  </Card.Title>
+                  <Card.Subtitle className="mb-2 text-muted">Indus Valley Partners</Card.Subtitle>
+                  <Card.Text>
+                    Jan 2022 - Present : {ivpTenure}
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col xs={12} md={6}>
+              <Card className="profession-card">
+                <Card.Body>
+                  <Card.Title>
+                    Associate Software Engineer
+                  </Card.Title>
+                  <Card.Subtitle className="mb-2 text-muted">Indus Valley Partners</Card.Subtitle>
+                  <Card.Text>
+                    Jan 2022 - Present : {ivpTenure}
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </Col>
+          </Row>
         </div>
       </Container>
     </div>
