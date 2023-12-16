@@ -9,7 +9,7 @@ import {Projects} from ".//components/projects.js";
 
 function App() {
   return (
-    <div>
+    <>
       <NavBar/>
       <Personal/>
       <Profession/>
@@ -17,7 +17,7 @@ function App() {
       <Almamater/>
       <Certifications/>
       <Projects/>
-    </div>
+    </>
   );
 }
 

@@ -1,6 +1,6 @@
-/* #personal {
-  margin-top: 100px;
-} */
+html {
+   scroll-padding-top: 70px;
+}
 
 .section-title{
   margin: 40px 0;
@@ -17,17 +17,25 @@
 
 .navbar-items {
   padding: 10px !important;
+  color: white !important;
 }
 
 .navbar-items:hover {
   padding: 10px !important;
-  /* font-weight: bold; */
 }
 
 .navbar {
-  height: 60px;
-  /* background-color: #00308f !important;
-  color: white !important; */
+  height: 55px;
+  background-color: #00308f !important;
+}
+
+.navbar-brand {
+  color: white !important;
+  margin-left: 20px;
+}
+
+.navbar-toggler-icon, .navbar-toggler {
+  background-color: white !important;
 }
 
 .front-image {
@@ -63,22 +71,19 @@
   color: #00308f;
 }
 
-#personal, #almamater{
-  /* margin-top: 50px !important; */
-  /* margin-bottom: 100px !important; */
-}
-
-.almamater-row {
-  /* background-color: red; */
-  /* display: flex !important;
-  justify-content: space-around !important; */
-  /* margin-bottom: 30px !important; */
-}
-
 .qual-card {
   margin-bottom: 50px !important;
   margin-left: 30px !important;
   margin-right: 30px !important;
+  font-size: 14px;
+}
+
+.qual-title {
+  font-size: 14px !important;
+}
+
+.qual-subtitle {
+  font-size: 12px !important;
 }
 
 .profession-card {
@@ -136,8 +141,21 @@
   --bs-progress-height: 0.5rem !important;
 }
 
-.prof-skills{
-  font-size: 14px;
+.prof-skills {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: baseline;
+  font-size: 12px;
+}
+
+.skill-item {
+  border: 1px solid lightgrey;
+  padding: 3px 7px;
+  margin: 5px 7px;
+  border-radius: 7px;
+  box-shadow: 0 8px 10px -7px;
 }
 
 .prof-exp{
@@ -156,7 +174,7 @@
   white-space: nowrap;
 }
 
-.pdf-link, .repo-link, .live-link, .captures-link {
+.pdf-link, .repo-link, .live-link, .captures-link, .resume-link {
   color: white !important;
   text-decoration: none;
   font-size: 13px;
@@ -173,7 +191,6 @@
 .pdf-button, .repo-button, .live-button, .captures-button {
   background-color: #00308f !important;
   margin-top: 10px;
-  /* font-size: 12px !important; */
 }
 
 .certifications-row, .projects-row {
@@ -186,6 +203,28 @@
 
 .specialization-card, .course-card {
   margin-top: 30px;
+}
+
+.resume-btn {
+  background-color: #00308f !important;
+  padding: 10px 40px !important;
+  margin-top: 50px;
+  margin-bottom: -30px;
+}
+
+@media only screen and (max-device-width: 991px) {
+  .navbar-nav-scroll {
+    background-color: #00308f;
+    width: 200px;
+    /* padding-right: 0 !important; */
+    text-align: center;
+    border-bottom-left-radius: 25px;
+  }
+
+  .navbar-collapse {
+    margin-right: -20px;
+    margin-top: -1px;
+  }
 }
 
 @media only screen and (max-device-width: 480px) {

@@ -41,7 +41,7 @@ export function Profession(){
           <Card className="profession-card shadow">
             <Card.Body className="profession-card-body">
               <Card.Title className="summary">
-                Logical Software Engineer with close to 2 years of experience.
+                Logical Software Engineer with 2 years of experience.
                 Skilled in development, testing & debugging. Strong work-ethic, communicator, proactive
                 and multitasker with organized, detail-oriented approach.
                 Conducts comprehensive analysis to identify data/process failure issues.
@@ -102,15 +102,15 @@ export function Profession(){
                 <ListGroup.Item>Mentored juniors and new resources for onboarding.</ListGroup.Item>
               </ListGroup>
               <hr/>
-              <ListGroup horizontal="sm" className="prof-skills">
+              <div className="prof-skills">
                 {profSkills.map((item, index) => {
                   return (
-                      <>
-                        <ListGroup.Item key={index}>{item.skill}</ListGroup.Item>
-                      </>
+                    <>
+                      <p key={index} className="skill-item">{item.skill}</p>
+                    </>
                   )
                 })}
-              </ListGroup>
+              </div>
             </Card.Body>
           </Card>
       </Container>

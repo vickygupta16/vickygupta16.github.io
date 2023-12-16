@@ -14,8 +14,8 @@ export function Almamater(){
           <Col xs={12} md={6}>
             <Card className="shadow qual-card">
               <Card.Body>
-                <Card.Title>Master of Computer Applications <span className="nowrap-texts">(2019-22)</span></Card.Title>
-                <Card.Subtitle>K.J. Somaiya Institute of Management</Card.Subtitle>
+                <Card.Title className="qual-title">Master of Computer Applications <span className="nowrap-texts">(2019-22)</span></Card.Title>
+                <Card.Subtitle className="qual-subtitle">K.J. Somaiya Institute of Management</Card.Subtitle>
                 <hr/>
                 <Row>
                   <Col><span className="mb-2 text-muted nowrap-texts">CGPA :</span> <b>9.14</b>&nbsp;/&nbsp;10</Col>
@@ -27,8 +27,8 @@ export function Almamater(){
           <Col xs={12} md={6}>
             <Card className="shadow qual-card">
               <Card.Body>
-                <Card.Title>Bachelor of Science in Information Technology <span className="nowrap-texts">(2016-19)</span></Card.Title>
-                <Card.Subtitle>Ramniranjan Jhunjhunwala College</Card.Subtitle>
+                <Card.Title className="qual-title">Bachelor of Science in Information Technology <span className="nowrap-texts">(2016-19)</span></Card.Title>
+                <Card.Subtitle className="qual-subtitle">Ramniranjan Jhunjhunwala College</Card.Subtitle>
                 <hr/>
                 <Row>
                   <Col><span className="mb-2 text-muted">CGPA :</span> <b>8.42</b>&nbsp;/&nbsp;10</Col>
@@ -40,8 +40,8 @@ export function Almamater(){
           <Col xs={12} md={6}>
             <Card className="shadow qual-card">
               <Card.Body>
-                <Card.Title>H.S.C. <span className="nowrap-texts">(2016)</span></Card.Title>
-                <Card.Subtitle>Ramniranjan Jhunjhunwala College</Card.Subtitle>
+                <Card.Title className="qual-title">H.S.C. <span className="nowrap-texts">(2016)</span></Card.Title>
+                <Card.Subtitle className="qual-subtitle">Ramniranjan Jhunjhunwala College</Card.Subtitle>
                 <hr/>
                 <Row>
                   <Col><span className="mb-2 text-muted nowrap-texts">Aggregate :</span> <b>70.62</b>&nbsp;/&nbsp;100</Col>
@@ -53,8 +53,8 @@ export function Almamater(){
           <Col xs={12} md={6}>
             <Card className="shadow qual-card">
               <Card.Body>
-                <Card.Title>S.S.C. <span className="nowrap-texts">(2014)</span></Card.Title>
-                <Card.Subtitle>Hindi High School</Card.Subtitle>
+                <Card.Title className="qual-title">S.S.C. <span className="nowrap-texts">(2014)</span></Card.Title>
+                <Card.Subtitle className="qual-subtitle">Hindi High School</Card.Subtitle>
                 <hr/>
                 <Row>
                   <Col><span className="mb-2 text-muted nowrap-texts">Aggregate :</span> <b>82.6</b>&nbsp;/&nbsp;100</Col>

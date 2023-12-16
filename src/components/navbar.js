@@ -12,12 +12,10 @@ export function NavBar() {
       collapseOnSelect
       expand="lg"
       sticky="top"
-      className="bg-body-tertiary shadow p-3 mb-5 bg-body navbar"
+      className="shadow navbar"
     >
       <Container fluid>
-        <Navbar.Brand href="#" className="brand-name">
-          Vicky Gupta
-        </Navbar.Brand>
+        <Navbar.Brand>Vicky Gupta</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
@@ -26,22 +24,22 @@ export function NavBar() {
             navbarScroll
           >
             <Nav.Link href="#personal" className="navbar-items">
-              Personal
+              <i class="bi bi-info-circle"></i> Personal
             </Nav.Link>
             <Nav.Link href="#profession" className="navbar-items">
-              Profession
+              <i class="bi bi-pc-display-horizontal"></i> Profession
             </Nav.Link>
             <Nav.Link href="#skills" className="navbar-items">
-              Skills
+              <i class="bi bi-braces"></i> Skills
             </Nav.Link>
             <Nav.Link href="#almamater" className="navbar-items">
-              Alma mater
+              <i class="bi bi-mortarboard-fill"></i> Alma mater
             </Nav.Link>
-            <Nav.Link href="#action3" className="navbar-items">
-              Certifications
+            <Nav.Link href="#certifications" className="navbar-items">
+              <i class="bi bi-patch-check"></i> Certifications
             </Nav.Link>
-            <Nav.Link href="#action3" className="navbar-items">
-              Projects
+            <Nav.Link href="#projects" className="navbar-items">
+              <i class="bi bi-code-slash"></i> Projects
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
