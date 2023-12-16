@@ -8,21 +8,22 @@ import Table from 'react-bootstrap/Table';
 import "../App.css";
 
 export function Personal() {
+  // alert(window.innerWidth);
   return (
     <div id="personal" className="text-center">
       <Container>
         <h3 className="section-title">About me</h3>
         <Row>
-          <Col>
+          <Col xs={12} md={6} className={window.innerWidth < 1450 && "image-resp"}>
             <Image src={VG_3} className="front-image" />
           </Col>
-          <Col>
+          <Col xs={12} md={6}>
             <Card className="align-middle shadow-lg">
             <Card.Body>
             <Table className="personal-table" hover>
               <tbody>
                 <tr className="personal-table-row">
-                  <td colspan="2">Hi, I am an <span className="designation">A</span>ssociate <span className="designation">S</span>oftware <span className="designation">E</span>ngineer, working full time in FinTech organization since Jan 2022</td>
+                  <td colspan="2">Hi, I am an Associate Software Engineer, working full time in FinTech organization since Jan 2022</td>
                 </tr>
                 <tr className="personal-table-row">
                   <td className="personal-content-title">Name</td>

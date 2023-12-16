@@ -22,6 +22,19 @@ export function Profession(){
   const ivpTenureYears = diffDate.years() > 1 ? diffDate.years() + " years " : diffDate.years() + " year ";
   const ivpTenureMonths = diffDate.months() > 1 ? diffDate.months() + " months" : diffDate.months() + "month";
   const ivpTenure = ivpTenureYears + ivpTenureMonths;
+  const profSkills = [
+    { skill : "Microsoft Visio" },
+    { skill : "SQL" },
+    { skill : "React JS" },
+    { skill : ".NET MVC" },
+    { skill : "C#" },
+    { skill : "Microsoft Azure Data Factory" },
+    { skill : "Material UI" },
+    { skill : "Figma" },
+    { skill : "Postman" },
+    { skill : "Git" },
+  ]
+  alert(window.innerWidth)
   return (
     <div id="profession">
       <Container>
@@ -29,7 +42,7 @@ export function Profession(){
           <Card className="profession-card shadow">
             <Card.Body className="profession-card-body">
               <Row>
-                <Col>
+                <Col xs={12} md={6}>
                   <Card.Title>
                     Associate Software Engineer
                   </Card.Title>
@@ -38,12 +51,12 @@ export function Profession(){
                     Jan 2022 - Present : {ivpTenure}
                   </Card.Text>
                 </Col>
-                <Col className="text-end">
+                <Col className="text-end" xs={12} md={6}>
                   <a href="https://www.ivp.in/"><Image src={IVPLogo} className="ivp-logo"/></a>
                 </Col>
               </Row>
               <br/>
-              <ListGroup numbered>
+              <ListGroup numbered className="prof-exp">
                 <ListGroup.Item>
                   Contributed in several modules by developing, testing and deploying - Tables, Stored Procedures, Views, Azure Data Factory Pipelines, .NET code, React code.
                   <br/>
@@ -78,17 +91,14 @@ export function Profession(){
                 <ListGroup.Item>Mentored juniors and new resources for onboarding.</ListGroup.Item>
               </ListGroup>
               <hr/>
-              <ListGroup horizontal>
-                <ListGroup.Item>Microsoft Visio</ListGroup.Item>
-                <ListGroup.Item>Microsoft Azure Data Factory</ListGroup.Item>
-                <ListGroup.Item>SQL</ListGroup.Item>
-                <ListGroup.Item>React JS</ListGroup.Item>
-                <ListGroup.Item>.NET MVC</ListGroup.Item>
-                <ListGroup.Item>C#</ListGroup.Item>
-                <ListGroup.Item>Material UI</ListGroup.Item>
-                <ListGroup.Item>Figma</ListGroup.Item>
-                <ListGroup.Item>Postman</ListGroup.Item>
-                <ListGroup.Item>Git</ListGroup.Item>
+              <ListGroup horizontal="sm" className="prof-skills">
+                {profSkills.map((item, index) => {
+                  return (
+                      <>
+                        <ListGroup.Item key={index}>{item.skill}</ListGroup.Item>
+                      </>
+                  )
+                })}
               </ListGroup>
             </Card.Body>
           </Card>

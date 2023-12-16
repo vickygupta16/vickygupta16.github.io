@@ -93,7 +93,15 @@
 }
 
 .profession-card{
+  margin: auto !important;
   margin: 20px 0 !important;
+}
+
+@media only screen and (max-device-width: 480px) {
+  .profession-card{
+    width: 410px;
+    margin: auto !important;
+  }
 }
 
 .profession-card-body{
@@ -102,5 +110,30 @@
 }
 
 .ivp-logo{
-  height: 80%;
+  /* height: 80%; */
+}
+
+.skill-title{
+  margin-top: 35px;
+}
+
+.skill-bar {
+  margin-top: -10px;
+  --bs-progress-bar-bg: #00308f !important;
+}
+
+.prof-skills{
+  font-size: 12px;
+}
+
+.prof-exp{
+  font-size: 12px;
+}
+
+.image-resp {
+  margin-bottom: 35px;
+}
+
+.nowrap-texts {
+  white-space: nowrap;
 }
