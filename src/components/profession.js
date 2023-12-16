@@ -34,11 +34,22 @@ export function Profession(){
     { skill : "Postman" },
     { skill : "Git" },
   ]
-  alert(window.innerWidth)
   return (
     <div id="profession">
       <Container>
-        <h3 className="text-center">Profession</h3>
+        <h3 className="text-center section-title">Profession</h3>
+          <Card className="profession-card shadow">
+            <Card.Body className="profession-card-body">
+              <Card.Title className="summary">
+                Logical Software Engineer with close to 2 years of experience.
+                Skilled in development, testing & debugging. Strong work-ethic, communicator, proactive
+                and multitasker with organized, detail-oriented approach.
+                Conducts comprehensive analysis to identify data/process failure issues.
+                Proficient in documentation and Solution deployments.
+              </Card.Title>
+            </Card.Body>
+          </Card>
+          <br/>
           <Card className="profession-card shadow">
             <Card.Body className="profession-card-body">
               <Row>
@@ -103,6 +114,8 @@ export function Profession(){
             </Card.Body>
           </Card>
       </Container>
+      <br/><br/><br/>
+      <hr/>
     </div>
   )
 }

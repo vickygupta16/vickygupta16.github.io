@@ -1,21 +1,14 @@
-.App {
-  text-align: center;
+/* #personal {
+  margin-top: 100px;
+} */
+
+.section-title{
+  margin: 40px 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #f3f3f3;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  /* font-size: calc(10px + 2vmin); */
-  /* color: white; */
+.personal-card {
+  margin: 0 30px;
+  font-size: 14px;
 }
 
 .brand-name {
@@ -75,38 +68,58 @@
   /* margin-bottom: 100px !important; */
 }
 
-.section-title{
-  margin-bottom: 30px;
-}
-
-.almamater-row{
+.almamater-row {
   /* background-color: red; */
   /* display: flex !important;
   justify-content: space-around !important; */
   /* margin-bottom: 30px !important; */
 }
 
-.qual-card{
+.qual-card {
   margin-bottom: 50px !important;
   margin-left: 30px !important;
   margin-right: 30px !important;
 }
 
-.profession-card{
+.profession-card {
   margin: auto !important;
-  margin: 20px 0 !important;
 }
 
-@media only screen and (max-device-width: 480px) {
-  .profession-card{
-    width: 410px;
-    margin: auto !important;
-  }
+.skill-row {
+  margin: -20px 35px !important;
+  font-size: 14px;
 }
 
-.profession-card-body{
+.project-header, .project-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-header {
+  margin-bottom: -16px;
+}
+
+.project-type {
+  font-size: 12px;
+}
+
+.project-tech {
+  line-height: 12px;
+  font-size: 14px;
+}
+
+.profession-card-body, .projects-card-body {
   padding: 30px !important;
-  /* background-color: red; */
+}
+
+.projects-card {
+  margin-top: 30px;
+}
+
+.summary {
+  font-size: 14px !important;
+  font-weight: 350 !important;
+  line-height: 25px !important;
 }
 
 .ivp-logo{
@@ -120,14 +133,19 @@
 .skill-bar {
   margin-top: -10px;
   --bs-progress-bar-bg: #00308f !important;
+  --bs-progress-height: 0.5rem !important;
 }
 
 .prof-skills{
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .prof-exp{
   font-size: 12px;
+}
+
+.certificate-title {
+  font-size: 15px !important;
 }
 
 .image-resp {
@@ -136,4 +154,46 @@
 
 .nowrap-texts {
   white-space: nowrap;
+}
+
+.pdf-link, .repo-link, .live-link, .captures-link {
+  color: white !important;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.project-year {
+  font-weight: 300;
+}
+
+.certification-sub-header {
+  margin-bottom: -35px;
+}
+
+.pdf-button, .repo-button, .live-button, .captures-button {
+  background-color: #00308f !important;
+  margin-top: 10px;
+  /* font-size: 12px !important; */
+}
+
+.certifications-row, .projects-row {
+  padding: 30px;
+}
+
+.projects-row {
+  margin-top: -40px !important;
+}
+
+.specialization-card, .course-card {
+  margin-top: 30px;
+}
+
+@media only screen and (max-device-width: 480px) {
+  .profession-card {
+    width: 410px;
+    margin: auto !important;
+  }
+  .specialization-card, .course-card, .projects-card {
+    margin-top: 30px;
+  }
 }

@@ -8,7 +8,6 @@ import Table from 'react-bootstrap/Table';
 import "../App.css";
 
 export function Personal() {
-  // alert(window.innerWidth);
   return (
     <div id="personal" className="text-center">
       <Container>
@@ -18,46 +17,46 @@ export function Personal() {
             <Image src={VG_3} className="front-image" />
           </Col>
           <Col xs={12} md={6}>
-            <Card className="align-middle shadow-lg">
+            <Card className="align-middle shadow-lg personal-card">
             <Card.Body>
-            <Table className="personal-table" hover>
-              <tbody>
-                <tr className="personal-table-row">
-                  <td colspan="2">Hi, I am an Associate Software Engineer, working full time in FinTech organization since Jan 2022</td>
-                </tr>
-                <tr className="personal-table-row">
-                  <td className="personal-content-title">Name</td>
-                  <th className="personal-content-values">Vicky Gupta</th>
-                </tr>
-                <tr className="personal-table-row">
-                  <td className="personal-content-title">Email</td>
-                  <th className="personal-content-values"><a href="mailto:vickygupta16599@gmail.com" className="mail-link">vickygupta16599@gmail.com</a></th>
-                </tr>
-                <tr className="personal-table-row">
-                  <td className="personal-content-title">Mobile</td>
-                  <th className="personal-content-values"><a href="tel:+91 8879835947" className="mob">+91 8879835947</a></th>
-                </tr>
-                <tr className="personal-table-row">
-                  <td className="personal-content-title">Date of Birth</td>
-                  <th className="personal-content-values">16<sup>th</sup> May 1999</th>
-                </tr>
-                <tr className="personal-table-row">
-                  <td className="personal-content-title">Location</td>
-                  <th className="personal-content-values">Mumbai, India</th>
-                </tr>
-                <tr className="personal-table-row">
-                  <td className="personal-content-title">Nationality</td>
-                  <th className="personal-content-values">Indian</th>
-                </tr>
-              </tbody>
-            </Table>
+              <Table className="personal-table" hover>
+                <tbody>
+                  <tr className="personal-table-row">
+                    <td colspan="2">Hi, I am an Associate Software Engineer, working full time in FinTech organization since Jan 2022</td>
+                  </tr>
+                  <tr className="personal-table-row">
+                    <td className="personal-content-title">Name</td>
+                    <th className="personal-content-values">Vicky Gupta</th>
+                  </tr>
+                  <tr className="personal-table-row">
+                    <td className="personal-content-title">Email</td>
+                    <th className="personal-content-values"><a href="mailto:vickygupta16599@gmail.com" className="mail-link">vickygupta16599@gmail.com</a></th>
+                  </tr>
+                  <tr className="personal-table-row">
+                    <td className="personal-content-title">Mobile</td>
+                    <th className="personal-content-values"><a href="tel:+91 8879835947" className="mob">+91 8879835947</a></th>
+                  </tr>
+                  <tr className="personal-table-row">
+                    <td className="personal-content-title">Date of Birth</td>
+                    <th className="personal-content-values">16<sup>th</sup> May 1999</th>
+                  </tr>
+                  <tr className="personal-table-row">
+                    <td className="personal-content-title">Location</td>
+                    <th className="personal-content-values">Mumbai, India</th>
+                  </tr>
+                  <tr className="personal-table-row">
+                    <td className="personal-content-title">Nationality</td>
+                    <th className="personal-content-values">Indian</th>
+                  </tr>
+                </tbody>
+              </Table>
             </Card.Body>
             </Card>
           </Col>
         </Row>
-        <br/><br/><br/>
-        <hr/>
       </Container>
+      <br/><br/><br/>
+      <hr/>
     </div>
   );
 }

@@ -55,23 +55,23 @@ export function Skills() {
       skilled : 80
     },
   ]
-  return (
-    <div id="skills">
-      <Container>
-        <br/>
-        <h3 className="section-title text-center">Skills</h3>
-        <Row>
-          {skillList.map((item, index) => {
-              return (
-                <Col xs={12} md={6} key={index}>
-                  <p className="skill-title">{item.skill}</p>
-                  <ProgressBar now={item.skilled} visuallyHidden className="skill-bar" />
-                </Col>
-              )
-          })}
-        </Row>
+    return (
+      <div id="skills">
+        <Container>
+          <h3 className="section-title text-center">Skills</h3>
+          <Row className="skill-row">
+            {skillList.map((item, index) => {
+                return (
+                  <Col xs={12} md={6} key={index}>
+                    <p className="skill-title">{item.skill}</p>
+                    <ProgressBar now={item.skilled} visuallyHidden className="skill-bar" />
+                  </Col>
+                )
+            })}
+          </Row>
+        </Container>
+        <br/><br/><br/>
         <hr/>
-      </Container>
-  </div>
-);
+    </div>
+  );
 }

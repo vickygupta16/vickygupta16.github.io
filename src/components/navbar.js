@@ -28,23 +28,20 @@ export function NavBar() {
             <Nav.Link href="#personal" className="navbar-items">
               Personal
             </Nav.Link>
-            <Nav.Link href="#almamater" className="navbar-items">
-              Alma mater
-            </Nav.Link>
             <Nav.Link href="#profession" className="navbar-items">
               Profession
             </Nav.Link>
             <Nav.Link href="#skills" className="navbar-items">
               Skills
             </Nav.Link>
+            <Nav.Link href="#almamater" className="navbar-items">
+              Alma mater
+            </Nav.Link>
             <Nav.Link href="#action3" className="navbar-items">
               Certifications
             </Nav.Link>
             <Nav.Link href="#action3" className="navbar-items">
               Projects
-            </Nav.Link>
-            <Nav.Link href="#action3" className="navbar-items">
-              Others
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
