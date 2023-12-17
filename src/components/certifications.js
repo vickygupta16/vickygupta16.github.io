@@ -3,9 +3,6 @@ import Card from 'react-bootstrap/Card';
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Image from "react-bootstrap/Image";
-import VG_3 from "../images/VG_3.png";
-import Table from 'react-bootstrap/Table';
 import "../App.css";
 import UIUXDesign from "../certifications/UI-UX Design Specialization.pdf";
 import SEDOTNET from "../certifications/Software Engineering .NET Specialization (NIIT).pdf";
@@ -27,7 +24,7 @@ export function Certifications() {
     },
     {
       name : "Software Engineering .NET Specialization (NIIT)",
-      fileName : UIUXDesign
+      fileName : SEDOTNET
     },
   ]
   const courseList = [
@@ -44,7 +41,7 @@ export function Certifications() {
       fileName : IntroJS
     },
     {
-      name : "HTML,CSS and JS for Web Developers (Coursera)",
+      name : "HTML, CSS and JS for Web Developers (Coursera)",
       fileName : HTMLCSSJS
     },
     {
@@ -80,7 +77,7 @@ export function Certifications() {
                   <Card className="specialization-card shadow">
                     <Card.Body className="profession-card-body">
                       <Card.Title className="certificate-title">{item.name}</Card.Title>
-                      <Button className="pdf-button"><a href={UIUXDesign} className="pdf-link" target="_blank">View PDF</a></Button>
+                      <Button className="pdf-button"><a href={item.fileName} className="pdf-link" target="_blank" rel="noreferrer">View PDF</a></Button>
                     </Card.Body>
                   </Card>
                 </Col>
@@ -95,7 +92,7 @@ export function Certifications() {
                   <Card className="course-card shadow">
                     <Card.Body className="course-card-body">
                       <Card.Title className="certificate-title">{item.name}</Card.Title>
-                      <Button className="pdf-button"><a href={UIUXDesign} className="pdf-link" target="_blank">View PDF</a></Button>
+                      <Button className="pdf-button"><a href={item.fileName} className="pdf-link" target="_blank" rel="noreferrer">View PDF</a></Button>
                     </Card.Body>
                   </Card>
                 </Col>

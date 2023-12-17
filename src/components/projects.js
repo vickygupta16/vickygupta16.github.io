@@ -2,9 +2,6 @@ import Card from 'react-bootstrap/Card';
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Image from "react-bootstrap/Image";
-import VG_3 from "../images/VG_3.png";
-import Table from 'react-bootstrap/Table';
 import "../App.css";
 import Button from 'react-bootstrap/Button';
 import TTGCaptures from "../project-captures/TimeTableGenerator-ASPDOTNET-DB_UI.pdf";
@@ -115,11 +112,11 @@ export function Projects() {
                     <p className="text-muted project-type">{item.type}</p>
                     <p className="project-tech">{item.tech}</p>
                     <div className="project-footer">
-                      <Button className="repo-button"><a className="repo-link" href={item.repoLink} target="_blank">GitHub Repo</a></Button>
+                      <Button className="repo-button"><a className="repo-link" href={item.repoLink} target="_blank" rel="noreferrer">GitHub Repo</a></Button>
                       {item.liveLink !== null ?
-                        <Button className="live-button"><a className="live-link" href={item.liveLink} target="_blank">Live</a></Button>
+                        <Button className="live-button"><a className="live-link" href={item.liveLink} target="_blank" rel="noreferrer">Live</a></Button>
                         :
-                        <Button className="captures-button"><a className="captures-link" href={item.captures} target="_blank">Captures</a></Button>
+                        <Button className="captures-button"><a className="captures-link" href={item.captures} target="_blank" rel="noreferrer">Captures</a></Button>
                       }
                     </div>
                   </Card.Body>

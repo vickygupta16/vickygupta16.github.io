@@ -1,10 +1,6 @@
-import Card from 'react-bootstrap/Card';
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Image from "react-bootstrap/Image";
-import VG_3 from "../images/VG_3.png";
-import Table from 'react-bootstrap/Table';
 import "../App.css";
 import ProgressBar from 'react-bootstrap/ProgressBar';
 

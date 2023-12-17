@@ -3,7 +3,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
-import VG_3 from "../images/VG_3.png";
+import VG from "../images/VG.png";
 import Table from 'react-bootstrap/Table';
 import "../App.css";
 import Button from 'react-bootstrap/Button';
@@ -16,7 +16,7 @@ export function Personal() {
         <h3 className="section-title">About me</h3>
         <Row>
           <Col xs={12} md={6} className={window.innerWidth < 1450 && "image-resp"}>
-            <Image src={VG_3} className="front-image" />
+            <Image src={VG} className="front-image" />
           </Col>
           <Col xs={12} md={6}>
             <Card className="align-middle shadow-lg personal-card">
@@ -56,7 +56,7 @@ export function Personal() {
             </Card>
           </Col>
         </Row>
-        <Button className="resume-btn"><a href={Resume} className="resume-link" target="_blank">Download Resume</a></Button>
+        <Button className="resume-btn"><a href={Resume} className="resume-link" target="_blank" rel="noreferrer">Download Resume</a></Button>
       </Container>
       <br/><br/><br/>
       <hr/>

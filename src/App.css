@@ -2,7 +2,7 @@ html {
    scroll-padding-top: 70px;
 }
 
-.section-title{
+.section-title {
   margin: 40px 0;
 }
 
@@ -127,10 +127,6 @@ html {
   line-height: 25px !important;
 }
 
-.ivp-logo{
-  /* height: 80%; */
-}
-
 .skill-title{
   margin-top: 35px;
 }
@@ -163,7 +159,7 @@ html {
 }
 
 .certificate-title {
-  font-size: 15px !important;
+  font-size: 14px !important;
 }
 
 .image-resp {
