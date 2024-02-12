@@ -17,8 +17,8 @@ export function Profession(){
   const separator = "-";
   var fullDate = moment(`${year}${separator}${month < 10 ? `0${month}` : `${month}`}${separator}${ivpStartDate < 10 ? `0${date}` : `${date}`}`,"YYYY-MM-DD");
   const diffDate = moment.duration(fullDate.diff(ivpStartDate));
-  const ivpTenureYears = diffDate.years() > 1 ? diffDate.years() + " years " : diffDate.years() + " year ";
-  const ivpTenureMonths = diffDate.months() > 1 ? diffDate.months() + " months" : diffDate.months() + "month";
+  const ivpTenureYears = diffDate.years() > 1 ? diffDate.years() + " years " : diffDate.years() !== 0 ? diffDate.years() + " year " : "";
+  const ivpTenureMonths = diffDate.months() > 1 ? diffDate.months() + " months" : diffDate.months() !== 0 ? diffDate.months() + " month" : "";
   const ivpTenure = ivpTenureYears + ivpTenureMonths;
   const profSkills = [
     { skill : "Microsoft Visio" },
@@ -103,9 +103,7 @@ export function Profession(){
               <div className="prof-skills">
                 {profSkills.map((item, index) => {
                   return (
-                    <>
                       <p key={index} className="skill-item">{item.skill}</p>
-                    </>
                   )
                 })}
               </div>

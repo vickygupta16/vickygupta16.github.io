@@ -20,22 +20,22 @@ export function NavBar() {
             navbarScroll
           >
             <Nav.Link href="#personal" className="navbar-items">
-              <i class="bi bi-info-circle"></i> Personal
+              <i className="bi bi-info-circle"></i> Personal
             </Nav.Link>
             <Nav.Link href="#profession" className="navbar-items">
-              <i class="bi bi-pc-display-horizontal"></i> Profession
+              <i className="bi bi-pc-display-horizontal"></i> Profession
             </Nav.Link>
             <Nav.Link href="#skills" className="navbar-items">
-              <i class="bi bi-braces"></i> Skills
+              <i className="bi bi-braces"></i> Skills
             </Nav.Link>
             <Nav.Link href="#almamater" className="navbar-items">
-              <i class="bi bi-mortarboard-fill"></i> Alma mater
+              <i className="bi bi-mortarboard-fill"></i> Alma mater
             </Nav.Link>
             <Nav.Link href="#certifications" className="navbar-items">
-              <i class="bi bi-patch-check"></i> Certifications
+              <i className="bi bi-patch-check"></i> Certifications
             </Nav.Link>
             <Nav.Link href="#projects" className="navbar-items">
-              <i class="bi bi-code-slash"></i> Projects
+              <i className="bi bi-code-slash"></i> Projects
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
