@@ -1,5 +1,5 @@
 html {
-   scroll-padding-top: 70px;
+  scroll-padding-top: 70px;
 }
 
 .section-title {
@@ -34,7 +34,8 @@ html {
   margin-left: 20px;
 }
 
-.navbar-toggler-icon, .navbar-toggler {
+.navbar-toggler-icon,
+.navbar-toggler {
   background-color: white !important;
 }
 
@@ -47,26 +48,33 @@ html {
   text-decoration: none !important;
 }
 
-.personal-content-title{
+.personal-content-title {
   text-align: left;
   width: 30%;
   padding-left: 20px !important;
+  word-break: break-word;
+  white-space: pre-wrap;
 }
 
-.personal-content-values{
+.personal-content-values {
   text-align: left;
+  word-break: break-word;
+  white-space: pre-wrap;
 }
 
-.mob{
+.mob {
   color: black;
   text-decoration: none;
 }
 
-.personal-table-row, .almamater-table-row{
+.personal-table-row,
+.almamater-table-row {
   border: 0px solid white;
+  word-break: break-word;
+  white-space: pre-wrap;
 }
 
-.designation{
+.designation {
   font-weight: bold;
   color: #00308f;
 }
@@ -95,7 +103,8 @@ html {
   font-size: 14px;
 }
 
-.project-header, .project-footer {
+.project-header,
+.project-footer {
   display: flex;
   justify-content: space-between;
 }
@@ -113,7 +122,8 @@ html {
   font-size: 14px;
 }
 
-.profession-card-body, .projects-card-body {
+.profession-card-body,
+.projects-card-body {
   padding: 30px !important;
 }
 
@@ -127,7 +137,7 @@ html {
   line-height: 25px !important;
 }
 
-.skill-title{
+.skill-title {
   margin-top: 35px;
 }
 
@@ -154,7 +164,7 @@ html {
   box-shadow: 0 8px 10px -7px;
 }
 
-.prof-exp{
+.prof-exp {
   font-size: 12px;
 }
 
@@ -170,7 +180,11 @@ html {
   white-space: nowrap;
 }
 
-.pdf-link, .repo-link, .live-link, .captures-link, .resume-link {
+.pdf-link,
+.repo-link,
+.live-link,
+.captures-link,
+.resume-link {
   color: white !important;
   text-decoration: none;
   font-size: 13px;
@@ -184,12 +198,16 @@ html {
   margin-bottom: -35px;
 }
 
-.pdf-button, .repo-button, .live-button, .captures-button {
+.pdf-button,
+.repo-button,
+.live-button,
+.captures-button {
   background-color: #00308f !important;
   margin-top: 10px;
 }
 
-.certifications-row, .projects-row {
+.certifications-row,
+.projects-row {
   padding: 30px;
 }
 
@@ -197,8 +215,16 @@ html {
   margin-top: -40px !important;
 }
 
-.specialization-card, .course-card {
+.specialization-card,
+.course-card {
   margin-top: 30px;
+}
+
+.tenure {
+  background-color: whitesmoke;
+  padding: 1px 7px;
+  border-radius: 10px;
+  font-weight: 500;
 }
 
 .resume-btn {
@@ -228,7 +254,10 @@ html {
     width: 410px;
     margin: auto !important;
   }
-  .specialization-card, .course-card, .projects-card {
+
+  .specialization-card,
+  .course-card,
+  .projects-card {
     margin-top: 30px;
   }
 }

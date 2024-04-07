@@ -24,7 +24,7 @@ export function Personal() {
               <Table className="personal-table" hover>
                 <tbody>
                   <tr className="personal-table-row">
-                    <td colSpan="2">Hi, I am an Associate Software Engineer, working full time in FinTech organization since Jan 2022</td>
+                    <td colSpan="2">Hi, I am an Software Engineer, working full time in FinTech organization since Jan 2022</td>
                   </tr>
                   <tr className="personal-table-row">
                     <td className="personal-content-title">Name</td>

@@ -19,6 +19,10 @@ export function Skills() {
       skilled : 35
     },
     {
+      skill : "REST API",
+      skilled : 50
+    },
+    {
       skill : ".NET MVC",
       skilled : 50
     },
