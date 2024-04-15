@@ -32,6 +32,7 @@ export function Profession() {
     { skill: "C#" },
     { skill: "REST API" },
     { skill: "Microsoft Azure Data Factory" },
+    { skill: "Microsoft Azure Logic Apps" },
     { skill: "Material UI" },
     { skill: "Figma" },
     { skill: "Postman" },
@@ -44,7 +45,7 @@ export function Profession() {
         <Card className="profession-card shadow">
           <Card.Body className="profession-card-body">
             <Card.Title className="summary">
-              Logical Software Engineer with 2 years of experience.
+              Logical Software Engineer with 2+ years of experience.
               Skilled in development, testing & debugging. Strong work-ethic, communicator, proactive
               and multitasker with organized, detail-oriented approach.
               Conducts comprehensive analysis to identify data/process failure issues.
@@ -62,14 +63,14 @@ export function Profession() {
                 </Card.Title>
                 <Card.Subtitle className="mb-2 text-muted">Indus Valley Partners &#x2022; Full Time</Card.Subtitle>
                 <Card.Text>
-                  Apr 2024 - Present <span className="tenure">{tenureCalculator(ivpSETenureStart, ivpSETenureEnd)}</span>
+                  Apr 2024 - Present {ivpSETenureEnd && <span className="tenure">{tenureCalculator(ivpSETenureStart, ivpSETenureEnd)}</span>}
                 </Card.Text>
                 <Card.Title>
                   Associate Software Engineer
                 </Card.Title>
                 <Card.Subtitle className="mb-2 text-muted">Indus Valley Partners &#x2022; Full Time</Card.Subtitle>
                 <Card.Text>
-                  Jan 2022 - Mar 2024&nbsp;<span className="tenure">{tenureCalculator(ivpASETenureStart, ivpASETenureEnd)}</span>
+                  Jan 2022 - Mar 2024&nbsp;{ivpASETenureEnd && <span className="tenure">{tenureCalculator(ivpASETenureStart, ivpASETenureEnd)}</span>}
                 </Card.Text>
               </Col>
               <Col className="text-end" xs={12} md={6}>
@@ -104,8 +105,9 @@ export function Profession() {
               <ListGroup.Item>Headed Data Quality Management Report, sustained the report format and checks, and documented all up-to-date queries and steps used to manually prepare the Report and share with the client team</ListGroup.Item>
               <ListGroup.Item>Automated the daily Data Quality Management Report using <b>Azure Data Factory Pipelines</b>, <b>SQL Stored Procedures</b>, supporting <b>SQL Tables</b> in DataWarehouse and Synapse, <b>SQL View</b> and <b>SSRS Report</b>.</ListGroup.Item>
               <ListGroup.Item>Investigated data issue / <b>ETL</b> process failure issue of various modules, proactively communicated issues and possible remedies with team and fixed the same to avoid losing latest data.</ListGroup.Item>
+              <ListGroup.Item>Leveraged Azure Logic Apps with Azure Data Factory to notify users about ETL completion and necessary attachments.</ListGroup.Item>
               <ListGroup.Item>Developed a module end-to-end and stepped into ownership by maintaining data quality and supervising each <b>orchestration</b>. (Orchestration - Scripted Extract Transform Load process)</ListGroup.Item>
-              <ListGroup.Item>Oversaw, refined and sustained <b>Data Dictionary</b></ListGroup.Item>
+              <ListGroup.Item>Oversaw, refined and sustained <b>Data Dictionary</b>.</ListGroup.Item>
               <ListGroup.Item>Head UAT Restoration Process by coordinating with client IT team.</ListGroup.Item>
               <ListGroup.Item>Using <b>Microsoft Visio</b>, created Database DataWarehouse Diagram Model depicting types of tables and the relationships among them.</ListGroup.Item>
               <ListGroup.Item>Enhanced <b>Azure Logic Apps</b> and Pipelines in <b>Azure Data Factory</b> to send email alerts on pipeline failure having Environment name and Error message.</ListGroup.Item>
