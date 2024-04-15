@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3a808206.css",
+    "main.js": "/static/js/main.8896d2f0.js",
+    "static/media/BudgetaryControlApp-Android.pdf": "/static/media/BudgetaryControlApp-Android.913f0700830eae17e573.pdf",
+    "static/media/CarRentalSystem.pdf": "/static/media/CarRentalSystem.16c993727bed27edb14e.pdf",
+    "static/media/TimeTableGenerator-ASPDOTNET-DB_UI.pdf": "/static/media/TimeTableGenerator-ASPDOTNET-DB_UI.42acefcc452281805457.pdf",
+    "static/media/Bootstrap and jQuery-Certification course for Beginners.pdf": "/static/media/Bootstrap and jQuery-Certification course for Beginners.2f7e8aba8d1f5d4b98c4.pdf",
+    "static/media/MealDeliverySystem-ASPDOTNET-DB_UI.pdf": "/static/media/MealDeliverySystem-ASPDOTNET-DB_UI.6143978c7ac43ba4bf45.pdf",
+    "static/media/PotholeComplaintSystem-Laravel-DB_UI.pdf": "/static/media/PotholeComplaintSystem-Laravel-DB_UI.eb641418d1d48b0d5e7b.pdf",
+    "static/media/UI-UX Design Specialization.pdf": "/static/media/UI-UX Design Specialization.0909c308fd084e3f133a.pdf",
+    "static/media/Microsoft Azure SQL.pdf": "/static/media/Microsoft Azure SQL.d79e57477dc45b8a1242.pdf",
+    "static/media/Animation with JavaScript and jQuery.pdf": "/static/media/Animation with JavaScript and jQuery.c844e1ffdee8fcebfd3b.pdf",
+    "static/media/VG.png": "/static/media/VG.63b8f6f641a8292614d0.png",
+    "static/media/Advanced Styling with Responsive Design.pdf": "/static/media/Advanced Styling with Responsive Design.2e2a2fe89084cd11511b.pdf",
+    "static/media/Introduction to CSS3.pdf": "/static/media/Introduction to CSS3.0038a66f31d990734927.pdf",
+    "static/media/Interactivity with JavaScript.pdf": "/static/media/Interactivity with JavaScript.71539c2ebdc006d3a775.pdf",
+    "static/media/Introduction to HTML5.pdf": "/static/media/Introduction to HTML5.ee9b65515cdf18d28ad8.pdf",
+    "static/media/FrontEnd WebUI Frameworks and Tools-Bootstrap4.pdf": "/static/media/FrontEnd WebUI Frameworks and Tools-Bootstrap4.0285cf6f1b6d9d4f8e8e.pdf",
+    "static/media/HTML,CSS and JS for Web Developers.pdf": "/static/media/HTML,CSS and JS for Web Developers.0bc7047551922d8b2724.pdf",
+    "static/media/Vicky Gupta.pdf": "/static/media/Vicky Gupta.eafdf6ea902c24161535.pdf",
+    "static/media/EventHandlingApplication-ASPDOTNET.pdf": "/static/media/EventHandlingApplication-ASPDOTNET.4d288a30e17b2b7de4c2.pdf",
+    "static/media/Software Engineering .NET Specialization (NIIT).pdf": "/static/media/Software Engineering .NET Specialization (NIIT).901ad4b35a9e3df203a3.pdf",
+    "index.html": "/index.html",
+    "main.3a808206.css.map": "/static/css/main.3a808206.css.map",
+    "main.8896d2f0.js.map": "/static/js/main.8896d2f0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3a808206.css",
+    "static/js/main.8896d2f0.js"
+  ]
+}
